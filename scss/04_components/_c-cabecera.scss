@@ -1,0 +1,6 @@
+.c-cabecera{
+    margin: auto;
+    &__logo {
+        padding: getPadding(7) getPadding(7) getPadding(7) getPadding(0);
+    }
+}

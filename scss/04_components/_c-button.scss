@@ -1,0 +1,21 @@
+.c-button{
+    background-color: getColor("blanco");
+    border: none;
+    color: getColor("gris-5");
+    padding: getPadding(7) getPadding(11);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: getFontSize("m");
+
+    // &--primario {
+        
+    // }
+    &--secundario {
+        border: getBorderSize("xxs") solid getColor("principal");
+        border-radius: getBorderRadius(3);
+        padding: getPadding(5) getPadding(6);
+        font-size: getFontSize("xs");
+        color: getColor("principal");
+    }
+}

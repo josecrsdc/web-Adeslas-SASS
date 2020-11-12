@@ -1,0 +1,45 @@
+/*
+ *  MARGINS GLOBALS
+ */
+
+@for $i from 1 to 22 {
+    .g--margin-#{$i - 1}{
+        margin: getMargin(#{$i - 1});
+    }
+}
+/*
+ *  MARGINS TOP GLOBALS
+ */
+
+@for $i from 1 to 22 {
+    .g--margin-top-#{$i - 1}{
+        margin-top: getMargin(#{$i - 1});
+    }
+}
+/*
+ *  MARGINS BOTTOM GLOBALS
+ */
+
+@for $i from 1 to 22 {
+    .g--margin-bottom-#{$i - 1}{
+        margin-bottom: getMargin(#{$i - 1});
+    }
+}
+/*
+ *  MARGINS LEFT GLOBALS
+ */
+
+@for $i from 1 to 22 {
+    .g--margin-left-#{$i - 1}{
+        margin-left: getMargin(#{$i - 1});
+    }
+}
+/*
+ *  MARGINS RIGHT GLOBALS
+ */
+
+@for $i from 1 to 22 {
+    .g--margin-right-#{$i - 1}{
+        margin-right: getMargin(#{$i - 1});
+    }
+}

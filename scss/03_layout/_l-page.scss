@@ -1,0 +1,17 @@
+
+.l-page {
+    &__horizontal {
+        margin: auto;
+        display: flex;
+        align-content: flex-start;
+        // &--ancho{
+        //     max-width: $anchoMaximo;
+
+        // }
+    }
+}
+
+.l-page__body {
+    border: 3px solid red;
+    margin: auto;
+}

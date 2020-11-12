@@ -1,0 +1,17 @@
+.c-menu-principal {
+    background-color: getColor("gris-1");
+    
+    &__item{
+        color: getColor("gris-3");
+        font-size: getFontSize("s");
+        padding: getPadding(4) getPadding(0);
+        margin-right: getMargin(13);
+    }
+
+    &__item--selected {
+        border-bottom: getBorderSize("s");
+        border-style: solid;
+        border-color: getColor("principal");
+    }
+
+}
