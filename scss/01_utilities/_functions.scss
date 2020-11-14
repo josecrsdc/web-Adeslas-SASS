@@ -68,12 +68,14 @@ $margins:(
 //
 
 $font-size:(
-  "xxs" : 12px,
-  "xs"  : 14px,
-  "m"   : 16px,
-  "l"   : 18px,
-  "xl"  : 20px,
-  "xxl" : 24px
+  "xxs"   : 12px,
+  "xs"    : 14px,
+  "m"     : 16px,
+  "l"     : 18px,
+  "xl"    : 20px,
+  "xxl"   : 24px,
+  "big-1" : 28px,
+  "big-2" : 32px
 );
 
 @function getFontSize($key) {
@@ -91,7 +93,7 @@ $colors:(
   "blanco"      : #FFFFFF,
   "gris-1"      : #F6F6F6,
   "gris-2"      : #E6E6E6,
-  "gris-3"      : #2C3039,
+  "gris-3"      : #545863,
   "gris-4"      : #333333,
   "gris-5"      : #1F2228,
 );

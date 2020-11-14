@@ -1,0 +1,33 @@
+.c-panel {
+    width: 471px;
+    background-color: getColor("blanco");
+    color: getColor("secundario");
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+    
+    &__imagen {
+        border-radius: 4px 4px 0 0;
+    }
+
+    &__imagen {
+        max-width: 471px;
+    }
+
+    &__titulo {
+        font-size: getFontSize("big-1");
+        padding-top: getPadding(12);
+        padding-left: getPadding(14);
+        padding-right: getPadding(14);
+        font-weight: bold;
+        height: 80px;
+    }
+
+    &__parrafo {
+        color: getColor("gris-3");
+        font-size: getFontSize("xl");
+        padding-bottom: getPadding(10);
+        padding-left: getPadding(14);
+        padding-right: getPadding(14);
+        height: 60px;
+    }
+}

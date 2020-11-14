@@ -7,15 +7,48 @@
     text-decoration: none;
     display: inline-block;
     font-size: getFontSize("m");
+    cursor: pointer;
 
-    // &--primario {
-        
-    // }
+    &--primario {
+        background-color: getColor("secundario");
+        color: getColor("blanco");
+        border-radius: 5px;
+        width: 300px;
+        margin-bottom: getMargin(6);
+        font-weight: bold;
+        font-size: getFontSize("l");
+        padding-top: getPadding(6);
+        padding-bottom: getPadding(6);
+    }
     &--secundario {
         border: getBorderSize("xxs") solid getColor("principal");
         border-radius: getBorderRadius(3);
         padding: getPadding(5) getPadding(6);
         font-size: getFontSize("xs");
         color: getColor("principal");
+    }
+
+    &--terciario {
+        background-color: transparent;
+        color: getColor("blanco");
+        font-size: getFontSize("l");
+        font-weight: bold;
+        padding-left: getPadding(0);
+    }
+
+    &__circulo {
+        border: getBorderSize("xxs") solid getColor("principal");
+        padding: getPadding(0);
+        width: 20px;
+        height: 20px;
+        border-radius: 70%;
+        margin: getMargin(0) getMargin(3);
+        &--selected {
+            border-color: getColor("secundario");
+            background-color: getColor("secundario");
+        }
+        &:hover {
+            border-color: getColor("secundario");
+        }
     }
 }

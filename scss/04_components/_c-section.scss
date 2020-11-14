@@ -1,0 +1,13 @@
+.c-section {
+    padding-top: getPadding(12);
+    padding-bottom: getPadding(15);
+
+    &--claro {
+        background-color: getColor("gris-1");
+    }
+
+    &--oscuro {
+        background-color: getColor("gris-2");
+    }
+
+}

@@ -7,6 +7,10 @@
         margin: getMargin(#{$i - 1});
     }
 }
+
+.g--margin-auto {
+    margin: auto;
+}
 /*
  *  MARGINS TOP GLOBALS
  */

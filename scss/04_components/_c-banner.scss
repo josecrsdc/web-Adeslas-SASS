@@ -1,0 +1,19 @@
+.c-banner {
+    background-color: getColor("secundario");
+    margin-top: getMargin(8);
+    border-radius: 5px;
+    height: 160px;
+
+    &__imagen {
+        width: 80px;
+        height: 80px;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+
+    &__titulo {
+        color: getColor("blanco");
+        font-size: getFontSize("big-1");
+        padding: getPadding(10);
+    }
+}
