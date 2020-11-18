@@ -1,0 +1,50 @@
+
+/*
+ *  PADDINGS GLOBALS
+ */
+
+ @for $i from 1 to 22 {
+    .g--padding-#{$i - 1}{
+        padding: getPadding(#{$i - 1});
+    }
+}
+
+.g--padding-auto {
+    padding: auto;
+}
+/*
+ *  PADDINGS TOP GLOBALS
+ */
+
+@for $i from 1 to 22 {
+    .g--padding-top-#{$i - 1}{
+        padding-top: getPadding(#{$i - 1});
+    }
+}
+/*
+ *  paddingS BOTTOM GLOBALS
+ */
+
+@for $i from 1 to 22 {
+    .g--padding-bottom-#{$i - 1}{
+        padding-bottom: getPadding(#{$i - 1});
+    }
+}
+/*
+ *  PADDINGS LEFT GLOBALS
+ */
+
+@for $i from 1 to 22 {
+    .g--padding-left-#{$i - 1}{
+        padding-left: getPadding(#{$i - 1});
+    }
+}
+/*
+ *  PADDINGS RIGHT GLOBALS
+ */
+
+@for $i from 1 to 22 {
+    .g--padding-right-#{$i - 1}{
+        padding-right: getPadding(#{$i - 1});
+    }
+}

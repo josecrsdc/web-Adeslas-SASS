@@ -20,6 +20,7 @@
         padding-top: getPadding(6);
         padding-bottom: getPadding(6);
     }
+
     &--secundario {
         border: getBorderSize("xxs") solid getColor("principal");
         border-radius: getBorderRadius(3);
@@ -36,6 +37,10 @@
         padding-left: getPadding(0);
     }
 
+    &--small {
+        width: 100%;
+    }
+    
     &__circulo {
         border: getBorderSize("xxs") solid getColor("principal");
         padding: getPadding(0);

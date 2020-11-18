@@ -5,11 +5,21 @@
     border-radius: 4px 4px 0 0;
     text-align: center;
     
-    &__imagen {
-        border-radius: 4px 4px 0 0;
+    &--full-radius {
+        border-radius: 4px;
     }
 
+    &--small {
+        width: 400px;
+        // border: 1px solid yellow;
+        margin-left: getMargin(9);
+    }
+
+
+
+
     &__imagen {
+        border-radius: 4px 4px 0 0;
         max-width: 471px;
     }
 
@@ -18,8 +28,16 @@
         padding-top: getPadding(12);
         padding-left: getPadding(14);
         padding-right: getPadding(14);
-        font-weight: bold;
         height: 80px;
+
+        &--small {
+            font-size: getFontSize("l");
+            padding-top: getPadding(8);
+            padding-left: getPadding(1);
+            padding-right: getPadding(1);
+            padding-bottom: getPadding(10);
+            height: auto;
+        }
     }
 
     &__parrafo {
@@ -29,5 +47,14 @@
         padding-left: getPadding(14);
         padding-right: getPadding(14);
         height: 60px;
+
+        &--small {
+            font-size: getFontSize("l");
+            padding-top: getPadding(5);
+            padding-bottom: getPadding(10);
+            padding-left: getPadding(5);
+            padding-right: getPadding(5);
+            height: 90px;
+        }
     }
 }

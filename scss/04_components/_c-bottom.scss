@@ -1,0 +1,17 @@
+.c-bottom {
+    border-top: 1px solid getColor("gris-7");
+    padding: 22px 0 25px 17px;
+
+    &__logo {
+        width: 158px;
+        height: 21px;
+        padding-bottom: getPadding(3);
+    }
+
+    &__item {
+        text-decoration: underline;
+        color: getColor("gris-7");
+        font-size: getFontSize("s");
+        padding-right: getPadding(3);
+    }
+}

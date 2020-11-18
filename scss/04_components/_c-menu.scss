@@ -1,0 +1,20 @@
+.c-menu {
+    // background-color: seashell;
+    padding-top: getPadding(13);
+    padding-left: getPadding(12);
+    padding-bottom: getPadding(10);
+    &__titulo {
+        color: getColor("blanco");
+        font-size: getFontSize("l");
+        padding-bottom: getPadding(7);
+        font-weight: bold;
+        
+        &--slim {
+            font-weight: normal;
+        }
+    }
+    &__item {
+        color: getColor("principal");
+        padding-bottom: getPadding(7);
+    }
+}

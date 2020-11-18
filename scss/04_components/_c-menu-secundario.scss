@@ -1,0 +1,18 @@
+.c-menu-secundario {
+    padding: getPadding(7);
+    
+    &__item {
+        padding-right: getPadding(10);
+        color: getColor("gris-3");
+        font-size: getFontSize("l");
+        cursor: pointer;
+
+        &--selected {
+            color: getColor("secundario");
+        }
+
+        &:hover {
+            color: getColor("secundario");
+        }
+    }
+}

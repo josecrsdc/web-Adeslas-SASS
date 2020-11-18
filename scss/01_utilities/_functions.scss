@@ -93,9 +93,11 @@ $colors:(
   "blanco"      : #FFFFFF,
   "gris-1"      : #F6F6F6,
   "gris-2"      : #E6E6E6,
-  "gris-3"      : #545863,
+  "gris-3"      : #808183,
   "gris-4"      : #333333,
   "gris-5"      : #1F2228,
+  "gris-6"      : #2C3039,
+  "gris-7"      : #999999
 );
 
 @function getColor($key) {

@@ -3,20 +3,39 @@
 @import '01_utilities/variables';
 @import '01_utilities/functions';
 
+//LAYOUTS
 @import '03_layout/l-page';
 @import '03_layout/l-columns';
 @import '03_layout/l-extemos';
+@import '03_layout/l-horizontal';
 
+//COMPONENTS
 @import '04_components/c-cabecera';
 @import '04_components/c-preferencias';
 @import '04_components/c-button';
+@import '04_components/c-menu';
 @import '04_components/c-menu-principal';
+@import '04_components/c-menu-secundario';
 @import '04_components/c-carrusel';
 @import '04_components/c-section';
 @import '04_components/c-panel';
 @import '04_components/c-banner';
+@import '04_components/c-bloque';
+@import '04_components/c-bottom';
 
-@import '06_global/margin';
-@import '06_global/padding';
-@import '06_global/max-width';
+// GLOBALS
+@import '06_global/g--margin';
+@import '06_global/g--padding';
+@import '06_global/g--max-width';
+@import '06_global/g--enfasis';
+
+// ICONOS
+@import '06_global/g--movil';
+@import '06_global/g--heart';
+@import '06_global/g--diente';
+@import '06_global/g--arbol';
+@import '06_global/g--casa';
+@import '06_global/g--coche';
+@import '06_global/g--escudo';
+@import '06_global/g--lupa';
 

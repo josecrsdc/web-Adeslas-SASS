@@ -1,23 +1,23 @@
 .c-preferencias {
     text-align: right;
-    margin-bottom: getMargin(0);
+    margin-bottom: getMargin(7);
+    margin-top: getMargin(9);
+    
     &__logo{
-        line-height: 18px;
-        background-image: url(../img/logo_segurcaixaadeslas.svg);
-        background-repeat: no-repeat;
-        margin-left: getMargin(12);
-        margin-bottom: getMargin(7);
-        margin-top: getMargin(5);
+        width: 170px;
+        height: 18px;
+        vertical-align: middle;
     }
 
     &__idioma {
         color: getColor("secundario");
-        padding-right: getPadding(3);
+        padding-right: 20px;
     }
 
     &__caret-down {
         background-image: url(../img/caret-down-solid.svg);
         background-repeat: no-repeat;
+        background-position: center;
         padding: getPadding(3);
     }
 }

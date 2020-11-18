@@ -1,6 +1,7 @@
 .c-section {
     padding-top: getPadding(12);
     padding-bottom: getPadding(15);
+    
 
     &--claro {
         background-color: getColor("gris-1");
@@ -8,6 +9,12 @@
 
     &--oscuro {
         background-color: getColor("gris-2");
+    }
+
+    &__titulo {
+        text-align: center;
+        font-size: getFontSize("big-1");
+        padding-bottom: getPadding(13);
     }
 
 }

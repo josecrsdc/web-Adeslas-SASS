@@ -1,0 +1,27 @@
+.c-bloque {
+    border-top: 5px solid getColor("principal");
+    border-bottom: 5px solid getColor("principal");
+
+    
+    &--izquierdo {
+        width: 720px;
+        background-color: getColor("gris-6");
+        padding: getPadding(0) getPadding(7);
+    }
+    &--derecho {
+        width: 300px;
+        background-color: getColor("gris-5");
+
+    }
+
+    &__texto {
+        color: getColor("blanco");
+        padding-left: getPadding(12);
+        padding-bottom: getPadding(6);
+        
+        &--big {
+            font-size: getFontSize("big-1");
+        }
+    }
+
+}
