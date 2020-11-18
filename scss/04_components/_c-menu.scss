@@ -1,12 +1,12 @@
 .c-menu {
     // background-color: seashell;
-    padding-top: getPadding(13);
+    padding-top: getPadding(11);
     padding-left: getPadding(12);
     padding-bottom: getPadding(10);
     &__titulo {
         color: getColor("blanco");
-        font-size: getFontSize("l");
-        padding-bottom: getPadding(7);
+        font-size: getFontSize("m");
+        padding-bottom: getPadding(12);
         font-weight: bold;
         
         &--slim {
