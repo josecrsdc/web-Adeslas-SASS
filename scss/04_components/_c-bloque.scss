@@ -4,13 +4,14 @@
 
     
     &--izquierdo {
-        width: 720px;
+        width: ($anchoMaximo/3)*2;
         background-color: getColor("gris-6");
         padding: getPadding(0) getPadding(7);
     }
     &--derecho {
-        width: 300px;
+        width: $anchoMaximo/3;
         background-color: getColor("gris-5");
+        padding-left: getPadding(10);
 
     }
 

@@ -11,7 +11,8 @@
     &__item {
         text-decoration: underline;
         color: getColor("gris-7");
-        font-size: getFontSize("s");
-        padding-right: getPadding(3);
+        font-size: getFontSize("xs");
+        padding-right: getPadding(7);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 }

@@ -75,7 +75,8 @@ $font-size:(
   "xl"    : 20px,
   "xxl"   : 24px,
   "big-1" : 28px,
-  "big-2" : 32px
+  "big-2" : 32px,
+  "big-3" : 40px
 );
 
 @function getFontSize($key) {

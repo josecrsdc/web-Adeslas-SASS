@@ -2,4 +2,11 @@
     margin: auto;
     text-align: center;
     margin-bottom: getMargin(7);
+
+    &__imagen {
+        display: block;
+        margin: auto;
+        width: $anchoMaximo;
+        padding-bottom: getPadding(3);
+    }
 }

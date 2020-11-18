@@ -11,7 +11,6 @@
 
     &--small {
         width: 400px;
-        // border: 1px solid yellow;
         margin-left: getMargin(9);
     }
 
@@ -29,19 +28,22 @@
         padding-left: getPadding(14);
         padding-right: getPadding(14);
         height: 80px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
         &--small {
-            font-size: getFontSize("l");
+            font-size: getFontSize("xxl");
             padding-top: getPadding(8);
             padding-left: getPadding(1);
             padding-right: getPadding(1);
             padding-bottom: getPadding(10);
             height: auto;
+            font-weight: normal;
         }
     }
 
     &__parrafo {
-        color: getColor("gris-3");
+        color: getColor("gris-4");
         font-size: getFontSize("xl");
         padding-bottom: getPadding(10);
         padding-left: getPadding(14);
@@ -49,11 +51,11 @@
         height: 60px;
 
         &--small {
-            font-size: getFontSize("l");
+            font-size: getFontSize("xl");
             padding-top: getPadding(5);
             padding-bottom: getPadding(10);
-            padding-left: getPadding(5);
-            padding-right: getPadding(5);
+            padding-left: getPadding(6);
+            padding-right: getPadding(6);
             height: 90px;
         }
     }
