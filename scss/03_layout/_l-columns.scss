@@ -1,10 +1,10 @@
-// .l-columns {
-//     display: grid;
-//     grid-template-columns: repeat(1, 1fr);
-// }
+.l-columns {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 
-// @for $i from 2 to 5 {
-//     .l-columns--#{$i}{
-//         grid-template-columns: repeat(#{$i}, 1fr);
-//     }
-// }
+@for $i from 2 to 5 {
+    .l-columns--#{$i}{
+        grid-template-columns: repeat(#{$i}, 1fr);
+    }
+}

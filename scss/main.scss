@@ -1,15 +1,18 @@
-// IMPORTS
+
 
 @import '01_utilities/variables';
 @import '01_utilities/functions';
+@import '01_utilities/mixins';
 
-//LAYOUTS
-@import '03_layout/l-page';
+
+@import '02_base/reset';
+
+
 @import '03_layout/l-columns';
 @import '03_layout/l-extemos';
 @import '03_layout/l-horizontal';
 
-//COMPONENTS
+
 @import '04_components/c-cabecera';
 @import '04_components/c-preferencias';
 @import '04_components/c-button';
@@ -23,19 +26,11 @@
 @import '04_components/c-bloque';
 @import '04_components/c-bottom';
 
-// GLOBALS
+
 @import '06_global/g--margin';
 @import '06_global/g--padding';
 @import '06_global/g--max-width';
 @import '06_global/g--enfasis';
+@import '06_global/g--color';
 
-// ICONOS
-@import '06_global/g--movil';
-@import '06_global/g--heart';
-@import '06_global/g--diente';
-@import '06_global/g--arbol';
-@import '06_global/g--casa';
-@import '06_global/g--coche';
-@import '06_global/g--escudo';
-@import '06_global/g--lupa';
 

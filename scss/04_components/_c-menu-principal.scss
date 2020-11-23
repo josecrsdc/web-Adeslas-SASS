@@ -1,6 +1,12 @@
 .c-menu-principal {
     background-color: getColor("gris-1");
     
+    &__items {
+        display: flex;
+        flex-direction: row;
+        max-width: $anchoMaximo;
+        margin: auto;
+    }
     &__item{
         color: getColor("gris-3");
         font-size: getFontSize("s");

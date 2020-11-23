@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/a131a9b601.js" crossorigin="anonymous"></script>
     <title>Adeslas</title>
 </head>
 <body class="c-body">
-
-    <!-- HEADER -->
 
     <div class="c-cabecera  g--max-width">
         <div class="l-extremos">
@@ -29,46 +27,42 @@
     </div>
 
     <div class="c-menu-principal">
-        <div class="l-horizontal  g--max-width g--margin-auto">
-            <div class="c-menu-principal__item  c-menu-principal__item--selected">PARTICULARES</div>
-            <div class="c-menu-principal__item">PYMES Y AUTÓNOMOS</div>
-            <div class="c-menu-principal__item">EMPRESAS</div>
-            <div class="c-menu-principal__item">MUTUALIDADES</div>
-        </div>
+        <ul class="c-menu-principal__items">
+            <li class="c-menu-principal__item  c-menu-principal__item--selected">PARTICULARES</li>
+            <li class="c-menu-principal__item">PYMES Y AUTÓNOMOS</li>
+            <li class="c-menu-principal__item">EMPRESAS</li>
+            <li class="c-menu-principal__item">MUTUALIDADES</li>
+        </ul>
     </div>
 
-    <div class="c-menu-secundario">
-        <div class="l-horizontal  g--max-width  g--margin-auto">
-            <div class="c-menu-secundario__item  c-menu-secundario__item--selected"><span class="g--heart"></span> Seguro <span class="g--enfasis">Médico</span></div>
-            <div class="c-menu-secundario__item"><span class="g--diente"></span> Seguro <span class="g--enfasis">Dental</span></div>
-            <div class="c-menu-secundario__item"><span class="g--casa"></span> Seguro <span class="g--enfasis">Hogar</span></div>
-            <div class="c-menu-secundario__item"><span class="g--coche"></span> Seguro <span class="g--enfasis">Coche</span></div>
-            <div class="c-menu-secundario__item"><span class="g--arbol"></span> Seguro <span class="g--enfasis">Decesos</span></div>
-            <div class="c-menu-secundario__item"><span class="g--escudo"></span> Seguro <span class="g--enfasis">Seguros</span></div>
-            <div class="c-menu-secundario__item"><span class="g--lupa"></span></div>
-        </div>
-    </div>
-
-    <!-- BODY -->
+    <ul class="c-menu-secundario">
+            <li class="c-menu-secundario__item  c-menu-secundario__item--selected"><i class="fas fa-heartbeat g--color-principal"></i> Seguro <span class="g--enfasis">Médico</span></li>
+            <li class="c-menu-secundario__item"><i class="fas fa-tooth  g--color-principal"></i> Seguro <span class="g--enfasis">Dental</span></li>
+            <li class="c-menu-secundario__item"><i class="fas fa-home  g--color-principal"></i> Seguro <span class="g--enfasis">Hogar</span></li>
+            <li class="c-menu-secundario__item"><i class="fas fa-car  g--color-principal"></i></span> Seguro <span class="g--enfasis">Coche</span></li>
+            <li class="c-menu-secundario__item"><i class="fas fa-tree  g--color-principal"></i> Seguro <span class="g--enfasis">Decesos</span></li>
+            <li class="c-menu-secundario__item"><i class="fas fa-shield-alt  g--color-principal"></i> Seguro <span class="g--enfasis">Seguros</span></li>
+            <li class="c-menu-secundario__item"><i class="fas fa-search"></i></li>
+    </ul>
 
     <div class="c-carrusel  g--max-width">
-        <img src="./img/carrusel-1.jpg" alt="" class="c-carrusel__imagen">
-        <button class="c-button  c-button__circulo c-button__circulo--selected"></button>
-        <button class="c-button  c-button__circulo"></button>
-        <button class="c-button  c-button__circulo"></button>
-        <button class="c-button  c-button__circulo"></button>
+        <img class="c-carrusel__imagen" src="./img/carrusel-1.jpg" alt="">
+        <button class="c-carrusel__circulo c-carrusel__circulo--selected"></button>
+        <button class="c-carrusel__circulo"></button>
+        <button class="c-carrusel__circulo"></button>
+        <button class="c-carrusel__circulo"></button>
     </div>
 
     <div class="c-section  c-section--claro">
         <div class="l-extremos  g--max-width  g--margin-auto">
             <div class="c-panel">
-                <img src="./img/panel-1.jpg" alt="" class="c-panel__imagen">
+                <img class="c-panel__imagen" src="./img/panel-1.jpg" alt="">
                 <div class="c-panel__titulo">Resuelve tus dudas sobre la COVID-19</div>
                 <div class="c-panel__parrafo">Conoce los síntomas, pruebas diagnósticas y asistencia médica.</div>
                 <button class="c-button  c-button--primario">Más información</button>
             </div>
-            <div class="c-panel">
-                <img src="./img/panel-2.jpg" alt="" class="c-panel__imagen">
+            <div class="c-panel"> 
+                <img class="c-panel__imagen" src="./img/panel-2.jpg" alt="">
                 <div class="c-panel__titulo">Test COVID-19</div>
                 <div class="c-panel__parrafo">Acceso exclusivo a precios reducidos, solo para asegurados de Adeslas.</div>
                 <button class="c-button  c-button--primario">Más información</button>
@@ -79,13 +73,13 @@
     <div class="c-section  c-section--claro">
         <div class="l-extremos  g--max-width  g--margin-auto">
             <div class="c-panel">
-                <img src="./img/panel-3.jpg" alt="" class="c-panel__imagen">
+                <img class="c-panel__imagen" src="./img/panel-3.jpg" alt="">
                 <div class="c-panel__titulo">Cuadro Médico Adeslas</div>
                 <div class="c-panel__parrafo">Más de 43.000 profesionales y 1.200 centros médicos para ofrecerte la mejor atención.</div>
                 <button class="c-button  c-button--primario">Más información</button>
             </div>
             <div class="c-panel">
-                <img src="./img/panel-4.jpg" alt="" class="c-panel__imagen">
+                <img class="c-panel__imagen" src="./img/panel-4.jpg" alt="">
                 <div class="c-panel__titulo">Videoconsulta con un médico</div>
                 <div class="c-panel__parrafo">Con nuestro cuadro médico, por vídeo o teléfono, estés donde estés.</div>
                 <button class="c-button  c-button--primario">Más información</button>
@@ -99,7 +93,7 @@
         <div class="l-extremos  g--max-width  g--margin-auto">
 
             <div class="c-panel  c-panel--full-radius">
-                <img src="./img/panel-5.jpg" alt="" class="c-panel__imagen">
+                <img class="c-panel__imagen" src="./img/panel-5.jpg" alt="">
                 <div class="c-panel__titulo">Lo importante es saber lo que es importante</div>
                 <div class="c-panel__parrafo">Consulta aquí todos los seguros de salud Adeslas, y escoge el que más se adapta a tus necesidades.</div>
                 <button class="c-button  c-button--primario">Más información</button>
@@ -113,13 +107,11 @@
                     <button class="c-button  c-button--primario">Más información</button>
                 </div>
 
-                <div class="c-banner">
-                    <div class="l-extremos">
-                        <img src="./img/bucador-oficina-adeslas.png" alt="" class="c-banner__imagen">
+                <div class="c-banner"> 
+                        <img class="c-banner__imagen" src="./img/bucador-oficina-adeslas.png" alt="">
                         <div class="c-banner__titulo">Buscador de Oficinas  <br> Comerciales y Delegaciones <br>
                             <button class="c-button  c-button--terciario">Accede aquí</button>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -133,7 +125,7 @@
         <div class="l-horizontal">
 
             <div class="c-panel  c-panel--small  g--margin-left-0">
-                <img src="./img/icono-hogar.jpg" alt="" class="c-panel__imagen">
+                <img class="c-panel__imagen" src="./img/icono-hogar.jpg" alt="">
                 <div class="c-panel__titulo  c-panel__titulo--small  g--padding-bottom-0">SegurCaixa</div>
                 <div class="c-panel__titulo  c-panel__titulo--small  g--enfasis">HOGAR</div>
                 <div class="c-panel__parrafo  c-panel__parrafo--small">Asegura el lugas más importante para ti,<span class="g--enfasis">con la mejor relación calidad-precio.</span></div>
@@ -141,7 +133,7 @@
             </div>
 
             <div class="c-panel  c-panel--small">
-                <img src="./img/icono-auto.jpg" alt="" class="c-panel__imagen">
+                <img class="c-panel__imagen" src="./img/icono-auto.jpg" alt="">
                 <div class="c-panel__titulo  c-panel__titulo--small  g--padding-bottom-0">SegurCaixa</div>
                 <div class="c-panel__titulo  c-panel__titulo--small  g--enfasis">AUTOSELECCIÓN</div>
                 <div class="c-panel__parrafo  c-panel__parrafo--small">El seguro a terceros con <span class="g--enfasis">coberturas amplias,</span> como lunas, robo, incendio...</div>
@@ -149,7 +141,7 @@
             </div>
 
             <div class="c-panel  c-panel--small">
-                <img src="./img/icono-mascotas.jpg" alt="" class="c-panel__imagen">
+                <img class="c-panel__imagen" src="./img/icono-mascotas.jpg" alt="">
                 <div class="c-panel__titulo  c-panel__titulo--small  g--padding-bottom-0">SegurCaixa</div>
                 <div class="c-panel__titulo  c-panel__titulo--small  g--enfasis">MASCOTAS</div>
                 <div class="c-panel__parrafo  c-panel__parrafo--small">Protección para <span class="g--enfasis">tu fiel amigo.</span></div>
@@ -157,7 +149,7 @@
             </div>
 
             <div class="c-panel  c-panel--small">
-                <img src="./img/icono-electrodomesticos.jpg" alt="" class="c-panel__imagen">
+                <img class="c-panel__imagen" src="./img/icono-electrodomesticos.jpg" alt="">
                 <div class="c-panel__titulo  c-panel__titulo--small  g--padding-bottom-0">SegurCaixa</div>
                 <div class="c-panel__titulo  c-panel__titulo--small  g--enfasis">ELECTRODOMÉSTICOS</div>
                 <div class="c-panel__parrafo  c-panel__parrafo--small">Tus electrodomésticos <span class="g--enfasis">siempre a punto.</span></div>
@@ -169,44 +161,43 @@
     </div>
 
 
-    <!-- FOOTER -->
     <div class="c-section c-section--claro  g--padding-top-0  g--padding-bottom-0">
         <div class="l-horizontal  g--max-width  g--margin-auto">
 
-            <div class="c-bloque  c-bloque--izquierdo"> <!-- Bloque -->
+            <div class="c-bloque  c-bloque--izquierdo"> 
                 <div class="l-horizontal">
-                    <div class="c-menu">
-                        <div class="c-menu__titulo">ÁREA DE CLIENTE</div>
-                        <div class="c-menu__item">Tu cuadro médico</div>
-                    </div>
-                    <div class="c-menu">
-                        <div class="c-menu__titulo">NUESTROS SEGUROS</div>
-                        <div class="c-menu__item">Seguros particulares</div>
-                        <div class="c-menu__item">Seguros autónomos</div>
-                        <div class="c-menu__item">Seguros empresas</div>
-                        <div class="c-menu__item">Seguros mutualistas</div>
-                        <div class="c-menu__item">Tarifas salud</div>
-                    </div>
-                    <div class="c-menu">
-                        <div class="c-menu__titulo">SOBRE NOSOTROS​</div>
-                        <div class="c-menu__item">Información corporativa</div>
-                        <div class="c-menu__item">Sala de prensa</div>
-                        <div class="c-menu__item">RRHH y bolsa de trabajo</div>
-                    </div>
+                    <ul class="c-menu">
+                        <li class="c-menu__titulo">ÁREA DE CLIENTE</li>
+                        <li class="c-menu__item">Tu cuadro médico</li>
+                    </ul>
+                    <ul class="c-menu">
+                        <li class="c-menu__titulo">NUESTROS SEGUROS</li>
+                        <li class="c-menu__item">Seguros particulares</li>
+                        <li class="c-menu__item">Seguros autónomos</li>
+                        <li class="c-menu__item">Seguros empresas</li>
+                        <li class="c-menu__item">Seguros mutualistas</li>
+                        <li class="c-menu__item">Tarifas salud</li>
+                    </ul>
+                    <ul class="c-menu">
+                        <li class="c-menu__titulo">SOBRE NOSOTROS​</li>
+                        <li class="c-menu__item">Información corporativa</li>
+                        <li class="c-menu__item">Sala de prensa</li>
+                        <li class="c-menu__item">RRHH y bolsa de trabajo</li>
+                    </ul>
                 </div>
             
                 
-                <div class="c-bottom">
-                    <img src="./img/segurcaixaadeslas-bn.svg" alt="" class="c-bottom__logo">
-                    <div class="l-horizontal">
-                        <div class="c-bottom__item">Mapa web</div>
-                        <div class="c-bottom__item">Protección de datos</div>
-                        <div class="c-bottom__item">Información legal</div>
-                        <div class="c-bottom__item">Aviso legal</div>
-                        <div class="c-bottom__item">Cookies</div>
-                        <div class="c-bottom__item">Accesibilidad</div>
-                        <div class="c-bottom__item">© 2020</div>
-                    </div>
+                <div class="c-bottom"> 
+                    <img class="c-bottom__logo" src="./img/segurcaixaadeslas-bn.svg" alt="">
+                    <ul class="c-bottom__items">
+                        <li class="c-bottom__item">Mapa web</li>
+                        <li class="c-bottom__item">Protección de datos</li>
+                        <li class="c-bottom__item">Información legal</li>
+                        <li class="c-bottom__item">Aviso legal</li>
+                        <li class="c-bottom__item">Cookies</li>
+                        <li class="c-bottom__item">Accesibilidad</li>
+                        <li class="c-bottom__item">© 2020</li>
+                    </ul>
                 </div>
 
             </div>
@@ -219,7 +210,7 @@
                     <div class="c-menu__item">Preguntas Frecuentes Icono footer</div>
                 </div>
                 <div class="c-bloque__texto">Teléfono de atención 24 horas</div>
-                <div class="c-bloque__texto  c-bloque__texto--big"><span class="g--movil"></span> 918 315 138</div>
+                <div class="c-bloque__texto  c-bloque__texto--big"><i class="fas fa-mobile-alt  g--color-blanco"></i> 918 315 138</div>
             </div> 
         </div>
 

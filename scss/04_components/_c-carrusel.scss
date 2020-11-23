@@ -9,4 +9,21 @@
         width: $anchoMaximo;
         padding-bottom: getPadding(3);
     }
+
+    &__circulo {
+        border: getBorderSize("xxs") solid getColor("principal");
+        padding: getPadding(0);
+        width: 20px;
+        height: 20px;
+        border-radius: 70%;
+        margin: getMargin(0) getMargin(3);
+
+        &--selected {
+            border-color: getColor("secundario");
+            background-color: getColor("secundario");
+        }
+        &:hover {
+            border-color: getColor("secundario");
+        }
+    }
 }

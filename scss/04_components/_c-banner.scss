@@ -1,14 +1,16 @@
 .c-banner {
     background-color: getColor("secundario");
     margin-top: getMargin(8);
-    border-radius: 5px;
+    border-radius: getBorderRadius(3);
     height: 160px;
+    display: flex;
+    justify-content: space-between;
 
     &__imagen {
         width: 80px;
         height: 80px;
-        padding-top: 35px;
-        padding-left: 20px;
+        padding-top: getPadding(12);
+        padding-left: getPadding(9);
     }
 
     &__titulo {

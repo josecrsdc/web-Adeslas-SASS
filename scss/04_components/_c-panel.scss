@@ -2,11 +2,11 @@
     width: 471px;
     background-color: getColor("blanco");
     color: getColor("secundario");
-    border-radius: 4px 4px 0 0;
+    border-radius: getBorderRadius(2) getBorderRadius(2) getBorderRadius(0) getBorderRadius(0);
     text-align: center;
     
     &--full-radius {
-        border-radius: 4px;
+        @include border-radius(2);
     }
 
     &--small {
@@ -18,7 +18,7 @@
 
 
     &__imagen {
-        border-radius: 4px 4px 0 0;
+        border-radius: getBorderRadius(2) getBorderRadius(2) getBorderRadius(0) getBorderRadius(0);
         max-width: 471px;
     }
 

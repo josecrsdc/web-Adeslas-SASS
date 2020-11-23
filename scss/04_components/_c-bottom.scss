@@ -1,6 +1,9 @@
 .c-bottom {
-    border-top: 1px solid getColor("gris-7");
-    padding: 22px 0 25px 17px;
+    border-top: getBorderSize("xxs") solid getColor("gris-7");
+    padding-top: getPadding(10);
+    padding-right: getPadding(0);
+    padding-bottom: getPadding(11);
+    padding-left: getPadding(8);
 
     &__logo {
         width: 158px;
@@ -8,6 +11,10 @@
         padding-bottom: getPadding(3);
     }
 
+    &__items {
+        display: flex;
+        flex-direction: row;
+    }
     &__item {
         text-decoration: underline;
         color: getColor("gris-7");

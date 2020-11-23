@@ -1,6 +1,6 @@
 .c-bloque {
-    border-top: 5px solid getColor("principal");
-    border-bottom: 5px solid getColor("principal");
+    border-top: getBorderSize("m") solid getColor("principal");
+    border-bottom: getBorderSize("m") solid getColor("principal");
 
     
     &--izquierdo {

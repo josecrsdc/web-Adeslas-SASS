@@ -1,6 +1,12 @@
 .c-menu-secundario {
     padding: getPadding(7);
+    display: flex;
+    flex-direction: row;
+    max-width: $anchoMaximo;
+    margin: auto;
+    list-style: none;
     
+
     &__item {
         padding-right: getPadding(10);
         color: getColor("gris-3");

@@ -1,49 +1,43 @@
-/*
- *  MARGINS GLOBALS
- */
-
-@for $i from 1 to 22 {
-    .g--margin-#{$i - 1}{
-        margin: getMargin(#{$i - 1});
-    }
-}
-
 .g--margin-auto {
     margin: auto;
 }
-/*
- *  MARGINS TOP GLOBALS
- */
 
-@for $i from 1 to 22 {
-    .g--margin-top-#{$i - 1}{
-        margin-top: getMargin(#{$i - 1});
+
+
+@each $key in getMarginKeys() {
+    .g--margin-#{$key}{
+        margin: getMargin($key);
     }
 }
-/*
- *  MARGINS BOTTOM GLOBALS
- */
 
-@for $i from 1 to 22 {
-    .g--margin-bottom-#{$i - 1}{
-        margin-bottom: getMargin(#{$i - 1});
+
+
+@each $key in getMarginKeys() {
+    .g--margin-top-#{$key}{
+        margin-top: getMargin($key);
     }
 }
-/*
- *  MARGINS LEFT GLOBALS
- */
 
-@for $i from 1 to 22 {
-    .g--margin-left-#{$i - 1}{
-        margin-left: getMargin(#{$i - 1});
+
+
+@each $key in getMarginKeys() {
+    .g--margin-bottom-#{$key}{
+        margin-bottom: getMargin($key);
     }
 }
-/*
- *  MARGINS RIGHT GLOBALS
- */
 
-@for $i from 1 to 22 {
-    .g--margin-right-#{$i - 1}{
-        margin-right: getMargin(#{$i - 1});
+
+
+@each $key in getMarginKeys() {
+    .g--margin-left-#{$key}{
+        margin-left: getMargin($key);
+    }
+}
+
+
+
+@each $key in getMarginKeys() {
+    .g--margin-right-#{$key}{
+        margin-right: getMargin($key);
     }
 }

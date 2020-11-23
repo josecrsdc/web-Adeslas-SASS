@@ -1,146 +1,58 @@
-//
-// PADDINGS
-//
-
-$paddings:(
-  "0"  : 0px,
-  "1"  : 1px,
-  "2"  : 4px,
-  "3"  : 5px,
-  "4"  : 8px,
-  "5"  : 10px,
-  "6"  : 12px,
-  "7"  : 15px,
-  "8"  : 18px,
-  "9"  : 20px,
-  "10" : 24px,
-  "11" : 32px,
-  "12" : 40px,
-  "13" : 48px,
-  "14" : 64px,
-  "15" : 80px,
-  "16" : 96px,
-  "17" : 128px,
-  "18" : 160px,
-  "19" : 192px,
-  "20" : 224px
-  );
 
 @function getPadding($key) {
     @return unquote(map-get($paddings,"" + $key));
 }
+@function getPaddingKeys() {
+  @return map-keys($paddings);
+}
 
-//
-// MARGINS
-//
 
-$margins:(
-  "0"  : 0px,
-  "1"  : 1px,
-  "2"  : 4px,
-  "3"  : 5px,
-  "4"  : 8px,
-  "5"  : 10px,
-  "6"  : 12px,
-  "7"  : 15px,
-  "8"  : 18px,
-  "9"  : 20px,
-  "10" : 24px,
-  "11" : 32px,
-  "12" : 40px,
-  "13" : 48px,
-  "14" : 64px,
-  "15" : 80px,
-  "16" : 96px,
-  "17" : 128px,
-  "18" : 160px,
-  "19" : 192px,
-  "20" : 224px
-  );
+
+
 
 @function getMargin($key) {
     @return unquote(map-get($margins,"" + $key));
 }
+@function getMarginKeys() {
+  @return map-keys($margins);
+}
 
 
-//
-// FONT SIZES
-//
 
-$font-size:(
-  "xxs"   : 12px,
-  "xs"    : 14px,
-  "m"     : 16px,
-  "l"     : 18px,
-  "xl"    : 20px,
-  "xxl"   : 24px,
-  "big-1" : 28px,
-  "big-2" : 32px,
-  "big-3" : 40px
-);
 
 @function getFontSize($key) {
   @return unquote(map-get($font-size,"" + $key));
 }
+@function getFontSizeKeys() {
+  @return map-keys($font-size);
+}
 
 
-//
-// COLORS
-//
 
-$colors:(
-  "principal"   : #40B2EE,
-  "secundario"  : #107DB7,
-  "blanco"      : #FFFFFF,
-  "gris-1"      : #F6F6F6,
-  "gris-2"      : #E6E6E6,
-  "gris-3"      : #808183,
-  "gris-4"      : #333333,
-  "gris-5"      : #1F2228,
-  "gris-6"      : #2C3039,
-  "gris-7"      : #999999
-);
 
 @function getColor($key) {
   @return unquote(map-get($colors,"" + $key));
 }
+@function getColorKeys() {
+  @return map-keys($colors);
+}
 
-//
-// BORDERS SIZE
-//
 
-$border-size:(
-  "xxs" : 1px,
-  "xs"  : 2px,
-  "s"   : 3px,
-  "m"   : 4px,
-  "l"   : 6px,
-  "xl"  : 8px,
-  "xxl" : 10px
-);
+
 
 @function getBorderSize($key) {
   @return unquote(map-get($border-size,"" + $key));
 }
+@function getBorderSizeKeys() {
+  @return map-keys($border-size);
+}
 
-//
-// BORDERS RADIUS
-//
 
-$border-radius:(
-  "0"  : 0px,
-  "1"  : 2px,
-  "2"  : 4px,
-  "3"  : 5px,
-  "4"  : 8px,
-  "5"  : 10px,
-  "6"  : 14px,
-  "7"  : 20px,
-  "8"  : 25px,
-  "9"  : 28px,
-  "10" : 30px
-);
+
 
 @function getBorderRadius($key) {
   @return unquote(map-get($border-radius,"" + $key));
+}
+@function getBorderRadiusKeys() {
+  @return map-keys($border-radius);
 }

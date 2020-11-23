@@ -1,0 +1,5 @@
+@each $key in getColorKeys() {
+    .g--color-#{$key} {
+        color: getColor($key);
+    }
+}

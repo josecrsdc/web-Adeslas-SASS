@@ -1,0 +1,5 @@
+@mixin border-radius($radius) {
+	border-radius: getBorderRadius($radius);
+	-webkit-border-radius: getBorderRadius($radius);
+	-moz-border-radius: getBorderRadius($radius);
+}
